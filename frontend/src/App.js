@@ -5,11 +5,14 @@ import SignIn from './components/main/SignIn'
 import SignUp from './components/main/SignUp'
 import Feedback from './components/main/Feedback'
 import ForgetPswd from './components/main/ForgetPswd'
+import Navbar from './components/main/Navbar';
 
 function App() {
   return (
     <div>
       <BrowserRouter>
+
+      <Navbar />
 
         <Routes>
 
